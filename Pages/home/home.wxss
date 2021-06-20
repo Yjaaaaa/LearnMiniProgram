@@ -1,0 +1,6 @@
+/* home/home.wxss */
+.title {
+  color: skyblue;
+  font-size: 30px;
+  
+}
