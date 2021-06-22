@@ -1,2 +1,14 @@
 <!--home/home.wxml-->
 <text class="title">Hello World</text>
+
+<view>{{age}}</view>
+<!-- <button bindtap="btnClick">+</button> -->
+
+<button size="mini" 
+        open-type="getUserInfo"
+        bindgetuserinfo="handGetUserInfo">获取授权</button>
+
+<!-- <open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data> -->
+
+<view wx:for="{{list}}">{{item.title}}</view>

@@ -1,6 +1,33 @@
 {
   "pages": [
-    "Pages/home/home",
-    "Pages/about/about"
-  ]
+    "pages/home/home",
+    "pages/classify/classify",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#87cefa",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "My Mini Program",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "home",
+        "iconPath": "./img/home.png",
+        "selectedIconPath": "./img/home_active.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "classify",
+        "iconPath": "./img/classify.png",
+        "selectedIconPath": "./img/classify_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
 }
